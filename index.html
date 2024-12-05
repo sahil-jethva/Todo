@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="index.css">
+
+<body>
+  <div class="title">
+  <h3>Todo List</h3>
+  </div>
+  <div class="container">
+    <input type="text" id="tasks" placeholder="Enter Today's task" class="input">
+    <button onclick="addData()">Add Task</button>
+  </div>
+  <div class="task-list">
+    <ol id="taskList">
+    </ol>
+  </div>
+  <div class="filter-buttons">
+    <button  id="AllTaskButton">All Task</button>
+    <button class="inactive" id="filterButton">Filter Inactive</button>
+    <button class="Active" id="filterActiveButton">Filter Active</button>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
